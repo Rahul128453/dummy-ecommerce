@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": "75c9",
+      "title": "asAS",
+      "price": 0,
+      "thumbnail": "https://cdn.vectorstock.com/i/1000v/18/74/vk-letter-logo-initial-business-vector-37041874.jpg",
+      "category": "Beauty"
+    },
+    {
+      "id": "2bb8",
+      "title": "trdsdas",
+      "price": 1,
+      "thumbnail": "https://cdn.vectorstock.com/i/1000v/18/74/vk-letter-logo-initial-business-vector-37041874.jpg",
+      "category": "Beauty"
+    },
+    {
+      "id": "02e1",
+      "title": "tyyyy",
+      "price": 0,
+      "thumbnail": "https://cdn.vectorstock.com/i/1000v/18/74/vk-letter-logo-initial-business-vector-37041874.jpg",
+      "category": "Beauty"
+    }
+  ],
+  "users": [],
+  "orders": [
+    {
+      "id": "c0c6",
+      "customer": {
+        "fullName": "Rahul Mondal sjsklds",
+        "email": "imrahulmondal@gmail.com",
+        "phone": "08798013017",
+        "address": "Natibpur",
+        "city": "Amta",
+        "state": "West Bengal",
+        "pincode": "712416",
+        "paymentMethod": "Card"
+      },
+      "items": [
+        {
+          "id": 1,
+          "title": "Essence Mascara Lash Princess",
+          "price": 9.99,
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 19.98,
+      "orderDate": "2026-03-05T08:12:21.830Z",
+      "status": "Pending"
+    },
+    {
+      "id": "35fa",
+      "orderId": 1773055784750,
+      "customer": {
+        "fullName": "Rahul Mondal sjsklds",
+        "email": "imrahulmondal@gmail.com",
+        "phone": "08798013017",
+        "address": "Natibpur",
+        "city": "Amta",
+        "state": "West Bengal",
+        "pincode": "712416",
+        "paymentMethod": "Card"
+      },
+      "items": [
+        {
+          "id": 1,
+          "title": "Essence Mascara Lash Princess",
+          "price": 9.99,
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 19.98,
+      "paymentMethod": "Card",
+      "orderDate": "2026-03-09T11:29:44.750Z",
+      "status": "Pending"
+    },
+    {
+      "id": "4b01",
+      "orderId": 1773055831756,
+      "customer": {
+        "fullName": "Rahul Mondal sjsklds",
+        "email": "imrahulmondal@gmail.com",
+        "phone": "08798013017",
+        "address": "Natibpur",
+        "city": "Amta",
+        "state": "West Bengal",
+        "pincode": "712416",
+        "paymentMethod": "Card"
+      },
+      "items": [
+        {
+          "id": 1,
+          "title": "Essence Mascara Lash Princess",
+          "price": 9.99,
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 9.99,
+      "paymentMethod": "Card",
+      "orderDate": "2026-03-09T11:30:31.756Z",
+      "status": "Pending"
+    }
+  ],
+  "messages": [
+    {
+      "id": "0259",
+      "name": "Rahul Mondal sjsklds",
+      "email": "imrahulmondal@gmail.com",
+      "message": "sdsdsadasdsad"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
