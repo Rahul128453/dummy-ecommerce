@@ -8,9 +8,9 @@ type WishlistItem = {
     thumbnail: string;
 };
 
-type WishlistState = {
-    items: WishlistItem[];
-};
+// type WishlistState = {
+//     items: WishlistItem[];
+// };
 
 const savedWishlist = localStorage.getItem("wishlist");
 

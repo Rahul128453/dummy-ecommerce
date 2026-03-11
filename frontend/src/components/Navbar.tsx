@@ -4,8 +4,6 @@ import type { RootState } from "../redux/store";
 import { useEffect, useState } from "react";
 import { useAuth } from "../context/AuthContext";
 
-
-
 const Navbar: React.FC = () => {
     const cartItems = useSelector((state: RootState) => state.cart.items);
 
@@ -21,11 +19,11 @@ const Navbar: React.FC = () => {
         setUser(storedUser);
     }, []);
 
-    const handleLogout = () => {
-        localStorage.removeItem("user");
-        setUser(null); // 🔥 this triggers re-render
-        navigate("/login");
-    };
+    // const handleLogout = () => {
+    //     localStorage.removeItem("user");
+    //     setUser(null); // 🔥 this triggers re-render
+    //     navigate("/login");
+    // };
 
     const { user, logout } = useAuth();
     const navigate = useNavigate();
